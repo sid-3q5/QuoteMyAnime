@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300&display=swap');
+// font-family: 'Ubuntu', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+  
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+
+
+  .color {
+    background: linear-gradient(to right, #6ee7b7, #3b82f6, #7c3aed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0.3rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 1.7rem 5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: rgb(4,120,87);
+    font-family: 'Inter', sans-serif;
+
+    > h2 {
+        font-weight: 700;
+    }
+
+    > div {
+        width: 100%;
+        margin-left: 4vmax;
+
+        > a {
+            float: right;
+            margin: 0 2vmax;
+            font-size: 1rem;
+            font-weight: 700;
+            text-decoration: none;
+            color: #333333;
+
+            &:hover{
+                color: rgb(4,120,87);
+            }
+
+            > span {
+                color: #333333;
+            }
+        }
+    }
+}
